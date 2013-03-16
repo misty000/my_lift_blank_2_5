@@ -25,9 +25,9 @@ libraryDependencies ++= {
         "net.liftmodules"   %% "lift-jquery-module" % (liftVersion + "-2.2"),
         "org.eclipse.jetty" % "jetty-webapp"        % "8.1.7.v20120910"  % "container,test",
         "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container,test" artifacts Artifact("javax.servlet", "jar", "jar"),
-        "org.slf4j"         % "slf4j-api"           % "1.7.2",
-        "ch.qos.logback"    % "logback-core"        % "1.0.9",
-        "ch.qos.logback"    % "logback-classic"     % "1.0.9",
+        "org.slf4j"         % "slf4j-api"           % "1.7.3",
+        "ch.qos.logback"    % "logback-core"        % "1.0.10",
+        "ch.qos.logback"    % "logback-classic"     % "1.0.10",
         "org.specs2"        %% "specs2"             % "1.14"             % "test",
         "com.h2database"    % "h2"                  % "1.3.170"
     )
